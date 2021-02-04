@@ -19,12 +19,10 @@ class App {
         window.addEventListener('resize', this.resize.bind(this), false);
         this.resize();
 
-        this.ball = new Ball(this.stageWidth, this.stageHeight, 40, 8);
-        this.ball2 = new Ball(this.stageWidth, this.stageHeight, 40, 8);
-        this.ball3 = new Ball(this.stageWidth, this.stageHeight, 40, 10);
-        this.ball4 = new Ball(this.stageWidth, this.stageHeight, 40, 10);
-        this.ball5 = new Ball(this.stageWidth, this.stageHeight, 40, 10);
-        this.ball6 = new Ball(this.stageWidth, this.stageHeight, 40, 10);
+        this.ball = new Ball(this.stageWidth, this.stageHeight, 40, 5);
+        this.ball2 = new Ball(this.stageWidth, this.stageHeight, 40, 5);
+        this.ball3 = new Ball(this.stageWidth, this.stageHeight, 40, 5);
+        this.ball4 = new Ball(this.stageWidth, this.stageHeight, 40, 5);
 
 
 
@@ -56,8 +54,7 @@ class App {
         this.ball2.draw(this.ctx, this.stageWidth, this.stageHeight, '#DB4437', this.block);
         this.ball3.draw(this.ctx, this.stageWidth, this.stageHeight, '#F4B400', this.block);
         this.ball4.draw(this.ctx, this.stageWidth, this.stageHeight, '#0F9D58', this.block);
-        this.ball5.draw(this.ctx, this.stageWidth, this.stageHeight, '#4b45ab', this.block);
-        this.ball6.draw(this.ctx, this.stageWidth, this.stageHeight, '#81b144', this.block);
+
 
 
         // this.button.draw(this.ctx, '#161e38');
